@@ -1,6 +1,9 @@
 '
-' ListComPorts -- List all COM, even USB-to-serial-based onesports,
+' listComPorts -- List all COM, even USB-to-serial-based onesports,
 '                 along with other info about them
+'
+' Execute on the command line with:
+'   cscript.exe //nologo listComPorts.vbs
 '
 ' http://github.com/todbot/usbSearch
 '
