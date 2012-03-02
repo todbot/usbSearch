@@ -12,6 +12,7 @@ A list of Windows-only tools (for now) for inspecting USB devices & serial ports
 - listComPorts.exe - list all known COM ports, with other useful info
 - listComPorts.c   - source code for listComPorts.exe
 - pnpList.vbs      - list all PnP devices, USB and other
+- listArduinos.pl  - Mac OS X program to list Arduino UNOs ports & serial nums
 
 The .vbs files are executed on the command-line with the "cscript.exe" command.
 For instance, to list all the COM ports, run:
@@ -43,6 +44,9 @@ COM port.
 
 To build the exe files, install MinGW or similar and type "make".  
 See the Makefile for details.
+
+A short description of these programs is given here:
+http://todbot.com/blog/2012/03/02/listcomports-windows-command-line-tool-for-usb-to-serial/
 
 
 
