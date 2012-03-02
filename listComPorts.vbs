@@ -24,6 +24,7 @@ for each pname in portnames
            portinfo.Manufacturer & " - " & _
            portinfo.PNPDeviceID & _
            ""
+           'portinfo.Name & " - " & _
 Next
 
 '

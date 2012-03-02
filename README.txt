@@ -30,7 +30,8 @@ The above examples show an Arduino Diecimila and Teensy plugged in.
 
 Note that the USB VID and PID are displayed (0403 and 6001, respectively, 
 for the Arduino), and the serial number too, if the device has one.
-In the Arduino case, the serial number is "A6004CCFA".
+In the Arduino case, the serial number is "A6004CCFA".  In the Teensy case,
+the serial number is "12345".  
 The serial number is useful for determining which Arduino is bound to which
 COM port.
 
