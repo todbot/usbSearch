@@ -28,6 +28,12 @@ COM24 - PJRC.COM, LLC. - USB\VID_16C0&PID_0483\12345
 
 The above examples show an Arduino Diecimila and Teensy plugged in.
 
+With two Arduino UNOs, the results look like:
+cmd> listComPorts.exe
+COM27 - http://www.arduino.cc - USB\VID_2341&PID_0000\64936333936351400000
+COM25 - http://www.arduino.cc - USB\VID_2341&PID_0000\6493234373835191F1F1
+
+
 Note that the USB VID and PID are displayed (0403 and 6001, respectively, 
 for the Arduino), and the serial number too, if the device has one.
 In the Arduino case, the serial number is "A6004CCFA".  In the Teensy case,
