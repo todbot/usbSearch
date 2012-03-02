@@ -16,13 +16,13 @@ A list of Windows-only tools (for now) for inspecting USB devices & serial ports
 The .vbs files are executed on the command-line with the "cscript.exe" command.
 For instance, to list all the COM ports, run:
 
-$ cscript.exe //nologo listComPorts.vbs 
+cmd> cscript.exe //nologo listComPorts.vbs 
 COM26 - FTDI - FTDIBUS\VID_0403+PID_6001+A6004CCFA\0000
 COM24 - PJRC.COM, LLC. - USB\VID_16C0&PID_0483\12345
 
 The exe file outputs similar results when run:
 
-$ listComPorts.exe
+cmd> listComPorts.exe
 COM26 - FTDI - FTDIBUS\VID_0403+PID_6001+A6004CCFA\0000
 COM24 - PJRC.COM, LLC. - USB\VID_16C0&PID_0483\12345
 
