@@ -108,7 +108,7 @@ int listComPorts(void)
         dhGetValue(L"%s", &pnpid, objDevice, L".PnPDeviceID");
                                                 
         if(verbose>1) printf("'%s'.\n", name);
-        if( (match = strstr( name, "(COM" )) != NULL ) { // look for "(COM23)"
+        if( name != NULL && ((match = strstr( name, "(COM" )) != NULL) ) { // look for "(COM23)"
             // 'Manufacturuer' can be null, so only get it if we need it
             dhGetValue(L"%s", &manu, objDevice,  L".Manufacturer");
             port_count++;
