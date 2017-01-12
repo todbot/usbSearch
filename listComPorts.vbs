@@ -42,9 +42,11 @@ Function GetComPorts()
         set objRgx = CreateObject("vbScript.RegExp")
         strDevName = objItem.Name
         objRgx.Pattern = "COM[0-9]+"
-        set objRegMatches = objRgx.Execute(strDevName)
-        if objRegMatches.Count = 1 then
-            portList.Add objRegMatches.Item(0).Value, objItem 
+        if vbString = VarType(strDevName) then
+            set objRegMatches = objRgx.Execute(strDevName)
+            if objRegMatches.Count = 1 then
+                portList.Add objRegMatches.Item(0).Value, objItem 
+            end if
         end if
     Next
     set GetComPorts = portList
